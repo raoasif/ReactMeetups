@@ -1,10 +1,9 @@
-import { Routes, Route, Switch } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import AllMeetupsPage from "./pages/AllMeetups";
 import NewMeetupsPage from "./pages/NewMeetups";
 import FavoritesPage from "./pages/Favorites";
 import NotFoundPage from "./pages/NotFoundPage";
-import MainNavigation from "./components/layout/MainNavigation";
 import Layout from "./components/layout/Layout";
 
 function App() {
